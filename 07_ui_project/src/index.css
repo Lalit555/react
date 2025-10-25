@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+
+/* to remove scrrol bar  */
+#right::-webkit-scrollbar{
+display: none;
+
+}
