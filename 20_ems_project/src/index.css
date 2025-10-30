@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+#tasklist::-webkit-scrollbar{
+    display: none;
+}
+/* Hide the calendar icon in Chrome, Edge, and Safari */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    display: none;
+}
+.truncate-3-lines {
+    display: -webkit-box;
+    /* important for multiline clamp */
+    -webkit-box-orient: vertical;
+    /* important for multiline clamp */
+    -webkit-line-clamp: 3;
+    /* number of lines to show */
+    overflow: hidden;
+    /* hide the rest */
+}

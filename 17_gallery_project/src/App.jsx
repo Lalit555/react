@@ -83,7 +83,7 @@ const App = () => {
             Prev
           </button>
 
-          <h1 className="text-white font-semibold text-sm sm:text-base items-center justify-center">
+          <h1 className="text-white font-semibold text-sm sm:text-base items-center justify-center whitespace-nowrap">
             Page {index}
           </h1>
 
